@@ -1,3 +1,4 @@
+
 :root {
   --ink: #05090b;
   --deep: #071217;
@@ -159,6 +160,17 @@ a:hover, a:focus-visible { color: white; text-shadow: 0 0 14px var(--signal); }
 .recap-part { padding: 20px; border-bottom: 1px solid var(--line); }
 .recap-part:last-child { border-bottom: 0; }
 .recap-part h3 { color: var(--amber); }
+.recap-index { display: grid; gap: 14px; margin: 28px 0; }
+.recap-link { display: block; padding: 22px; border: 1px solid var(--line); border-radius: 14px; background: linear-gradient(150deg, var(--panel-2), var(--panel)); }
+.recap-link:hover { border-color: var(--signal); transform: translateY(-2px); box-shadow: 0 14px 34px rgba(0,0,0,.28); }
+.recap-link time, .recap-link span { color: var(--amber); font: .74rem ui-monospace, Consolas, monospace; letter-spacing: .08em; text-transform: uppercase; }
+.recap-link h2 { margin: 7px 0; color: var(--text); }
+.recap-link p { margin: 0 0 12px; color: var(--muted); }
+.recap-body { max-width: 820px; margin: 28px auto; padding: 28px clamp(20px, 5vw, 52px); border: 1px solid var(--line); border-radius: 14px; background: var(--panel); }
+.recap-body h2 { margin-top: 2.2em; color: var(--amber); }
+.recap-body p { margin: 1em 0; }
+.recap-body .dateline { color: var(--amber); font: .76rem ui-monospace, Consolas, monospace; letter-spacing: .08em; text-transform: uppercase; }
+.back-link { display: inline-block; margin-top: 22px; font: .76rem ui-monospace, Consolas, monospace; text-transform: uppercase; }
 
 .map-list, .people-list { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 14px; }
 .map-list .card, .people-list .card { min-height: 180px; }
@@ -186,3 +198,4 @@ a:hover, a:focus-visible { color: white; text-shadow: 0 0 14px var(--signal); }
   .runner-grid, .feed-grid, .facts, .map-list, .people-list { grid-template-columns: 1fr; }
   .panel, .card, .feed-card { padding: 17px; }
 }
+

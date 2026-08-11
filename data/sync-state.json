@@ -1,3 +1,4 @@
+
 {
   "schemaVersion": 1,
   "server": {
@@ -17,7 +18,13 @@
   },
   "recapAssembly": {
     "groupBy": ["sessionDate", "title"],
-    "partPattern": "Part X/Y",
-    "sort": "partNumberAscending"
+    "partPattern": "Part X/Y, Part X, or ordered continuation posts",
+    "sort": "partNumberAscending",
+    "archiveStartMessageId": "1529103786969137285",
+    "archiveEndMessageId": "1536811711934370005",
+    "completeRecapCount": 5,
+    "recoveredFragmentCount": 26,
+    "lastFullArchiveScanAt": "2026-08-12T00:00:00+10:00"
   }
 }
+
