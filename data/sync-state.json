@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "server": {
+    "name": "Tuesday RPG Group",
+    "id": "887311498035224606"
+  },
+  "activeRunners": ["Cloak", "Red", "Prettyboy", "Pyrite"],
+  "retiredRunners": ["Arjun"],
+  "channels": {
+    "ic-leaks-shadowlands-gossip": { "id": "1536822439877812355", "lastImportedAt": "2026-08-12T06:05:00+10:00" },
+    "player-characters": { "id": "1481787326916071597", "lastImportedAt": "2026-08-11T17:55:00+10:00" },
+    "whos-who": { "id": "1481789081838162033", "lastImportedAt": "2026-03-13T10:13:00+10:00" },
+    "npcs": { "id": "1481787365511921664", "lastImportedAt": "2026-08-06T18:41:00+10:00" },
+    "maps": { "id": "1481787749924081795", "lastImportedAt": "2026-08-04T20:02:00+10:00" },
+    "places-of-interest": { "id": "1481829019778289734", "lastImportedAt": "2026-04-21T18:48:00+10:00" },
+    "recaps-shadowrun": { "id": "1529102976059179108", "lastImportedAt": "2026-08-12T05:01:00+10:00" }
+  },
+  "recapAssembly": {
+    "groupBy": ["sessionDate", "title"],
+    "partPattern": "Part X/Y",
+    "sort": "partNumberAscending"
+  }
+}

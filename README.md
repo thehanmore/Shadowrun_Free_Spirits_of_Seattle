@@ -1,7 +1,17 @@
-# The Free Spirit of Seattle
+# The Free Spirits of Seattle
 
-Player-facing Shadowrun campaign site with an accidental-spoiler GM access gate.
+Player-facing, in-character Shadowlands mirror for the Shadowrun campaign.
 
-Default GM access phrase: `edgewise`
+## Public site
 
-This is not real security. It is only intended to stop players accidentally clicking into GM notes.
+https://thehanmore.github.io/Shadowrun_Free_Spirits_of_Seattle/
+
+## Content rule
+
+Only information available to the player characters may appear on public pages. Leaks, rumours and corporate statements retain their uncertainty and source labels. GM-only facts remain under `gm/` and must never be inferred into public content.
+
+## Updating
+
+Tell Codex: **Update Shadowrun**.
+
+The detailed import and publication contract is in `UPDATE_SHADOWRUN.md`. Channel checkpoints are stored in `data/sync-state.json`.
